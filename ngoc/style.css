@@ -1,0 +1,21 @@
+.dau td{
+    background-color: blue;
+    text-align: center;
+}
+.giua .mau {
+    color:  red;
+}
+.cuoi .bo{
+ background-color: blue; 
+ color: white;
+}
+.boi{
+    background-color: antiquewhite;
+    
+}
+.bang1{
+    width: 500px;
+    height: 280px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}

@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    font-family: tahoma;
+}
+
+#container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #bcd4f4;
+    text-align: center;
+    height: 150px;
+}
+
+.logo{
+    padding-top: 40px;
+}
+
+nav{
+    background-color: #14294b;
+    height: 37px;
+    margin-top: -15px;
+}
+
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu>li{
+  
+    display: inline-block;
+    padding-top: 7px;
+    
+}
+
+.menu>li>a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+.banner{
+    padding-top: 10px;
+}
+
+.search{
+    padding-top: 10px;
+    background-color: #14294b;
+    height: 48px;
+    
+}
+.txtSearch{
+    width: 77%;
+    height: 28px;
+    margin-left: 20px;
+}
+.sbSearch{
+    width: 10%;
+    height: 30px;
+    margin-left: 50px;
+    background-color: #ef660f;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.news .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    padding: 10px 10px;
+}
+
+.row .col{
+    border: 1px solid #ad4601;
+    padding: 20px 20px;
+}
+.col h3{
+    color: #ad4601;
+}
+
+.row1 .col1{
+    width: 950px;
+    border: 1px solid #ad4601;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-gap: 30px;
+    padding: 10px 10px;
+}
+footer{
+    background-color: #14294b;
+    text-align: center;
+    height: 40px;
+}
+footer span{
+    color: aliceblue;
+    line-height: 30px;
+}
+

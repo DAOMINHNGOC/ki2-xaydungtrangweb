@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    font-family: tahoma;
+}
+#container{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    background-color: #f95512;
+    height: 100px;
+    padding-top: 30px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.logo{
+    line-height: 50px;
+}
+nav{
+    background-color: #272f54;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px 5px 30px;
+  margin-bottom: 9px;
+}
+
+.menu{
+    margin: 0;
+}
+.menu>li{
+    list-style-type: none;
+    display: inline-block;
+   
+}
+.menu>li>a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 19px 19px 19px;
+
+}
+.menu>li>a:hover{
+    color: #fdd7cf;
+    background-color: #f95512;
+}
+
+.txtsearch{
+    border: 1px solid white;
+    
+}
+.sbSearch{
+    color: aliceblue;
+    background-color: #272f54;
+    border: 1px solid rgb(240, 43, 43);
+    text-transform: uppercase;
+}
+
+.news .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+.news h2{
+    text-align: center;
+    color: #f95512;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.col{
+    border: 1px solid #f95512;
+    padding: 1px 10px 20px 20px;
+}
+.col h3{
+    color: #f95512;
+    
+}
+footer{
+    background-color: #f95512;
+    text-align: center;
+    height: 50px;
+}
+footer span{
+    text-transform: uppercase;
+    color: white;
+    line-height: 40px;
+}

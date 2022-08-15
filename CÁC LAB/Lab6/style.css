@@ -1,0 +1,15 @@
+table{
+    border-collapse: separate;
+}
+tr:nth-child(2n+1){
+background-color: red;
+}
+tr:nth-child(2n){
+    background-color: yellow;
+}
+tr:nth-child(){
+    background-color: blue;
+}
+tr:last-child(){
+    background-color: green;
+}

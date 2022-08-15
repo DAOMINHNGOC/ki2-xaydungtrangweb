@@ -1,0 +1,18 @@
+.bo{
+    width: 60%;
+    height: 400px;
+    text-align: center;
+    border: 0px solid greenyellow;
+    
+}
+.con{
+    color: red;
+}
+.mau{
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+}
+.mau1{
+    background-color: greenyellow;
+}

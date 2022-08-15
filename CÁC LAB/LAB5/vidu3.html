@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+        Họ và tên:<br> <input type="text" id="txtUsername"><br>
+        Giới tính: <label><br>
+            <input type="radio" name ="rdRadio" id="rdRadio" >Nam
+            <input type="radio" name="rdRadio" id="rdRadio">Nữ
+            <br>
+        </label>
+        hình ảnh:<br> <input type="file" name = "flFileAnh"><br>
+        Quốc tịch: <select>
+            <option ></option>
+            <option>United States</option>
+            <option>hà nội</option>
+            <option>Phú thọ</option>
+        </select><br>
+        Sở thích: <br><label>
+            <input type="checkbox" id = " ckCheckbox">Thể thao
+            <input type="checkbox" id = "ckCheckbox">du lịch
+            <input type="checkbox" id = " ckCheckbox">âm nhạc
+            <input type="checkbox" id = " ckCheckbox">Ẩm thực
+        </label>
+        <br> Ghi chú: <br><textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" id="sbGui" value="đăng ký">
+        <input type="reset" id="rsNhaplai" value="Nhập lại"><br>
+        <button type="reset"><width="15px" img src="1.jpg"  />gui</button>
+        <fieldset>
+            <legend>Giới tính</legend>
+            <label >
+                nam <input type="radio" name ="rdgioitinh">
+    
+            </label>
+            <label >
+                nu <input type="radio" name ="rdgioitinh">
+                
+            </label>
+        </fieldset>
+        <input type="text" placeholder="Họ và tên" value="đào minh ngọc"  name="" disabled>
+        <!-- <input type="text" placeholder="Họ và tên" value="đào minh ngọc"  name="" disabled vô hiệu hóa còn reonly vẫn bấm vào đc nhưng khoogn sửa đc> -->
+        <input type="text" tabindex="2"> 
+        <!-- tabintex dùng để nhấn tab chuyển đến chỗ mình muốn chuyển đến -->
+         <input type="text" tabindex="4">
+        <input type="text" tabindex="3">
+        <input type="text" tabindex="1" required>
+        <!-- required thông báo lỗi nếu chưa nhập vào  -->
+        <input type="email" name="">
+        <input type="number" min="1" max="9">
+        <input type="submit" name ="" value="gửi">
+        <input list="abc">
+        <datalist  id="abc">
+            <option value="ABC">/option>
+                <option value="bcd">/option>
+                    <option value="bdC">/option>
+        </datalist>
+    </form>
+    
+</body>
+</html>>

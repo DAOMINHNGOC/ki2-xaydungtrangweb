@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    
+    <style>
+        .container{
+            width: 960px;
+            height: 1000px;
+            background-color: blue;
+            margin: 0 auto ;
+        }
+        header{
+            width: 100%;
+            height: 300px;
+            background-color: red;
+        }
+        nav{
+            width: 100%;
+            height: 50px;
+            
+        }
+        nav a{
+            color: black;
+            text-decoration: none;
+            line-height: 50px;
+            text-align: center;
+            margin: 0 10px;
+        }
+        nav a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        article{
+            width: 70%;
+            height: 500px;
+            box-shadow: 0 0 5px gray;
+            background-color: white;
+            float: left;
+        }
+        aside{
+            width: 30%;
+            height: 500px;
+            background-color: white;
+            float: left;
+        }
+        footer{
+            clear: both;
+            width: 100%;
+            height: 150px;
+            background-color: greenyellow;
+            line-height: 150px;
+            text-align: center;
+            font-size: 26px;
+            font-variant: small-caps;
+        }
+        iframe[name= page]{
+            width: 100%;
+            min-height: 500px;
+        }
+        ul.vmenu{
+           list-style-type: none;
+           padding: 0;
+           margin: 5px;
+           box-shadow: 0 0 5px orangered;
+           border-radius: 10px;
+        }
+        ul.vmenu>li{
+            border-bottom: 1px dotted green;
+        }
+        ul.vmenu>li>a{
+
+            text-decoration: none;
+            line-height: 30px;
+            color: orangered;
+            padding-left: 25px;
+            font-variant: small-caps;
+            background: url('3.jpg') no-repeat left center;
+
+        }
+        ul.vmenu>li>a:hover{
+            text-decoration: underline;
+            color: yellow;
+            display: block;
+            background: url('/images/3.jpg') no-repeat left center;
+            background-color: orchid;
+        }
+        .menu{
+            background-color: greenyellow;
+            text-align: center;
+            font-variant: small-caps;
+        }
+        .menu>ul{
+            background-color: greenyellow;
+            list-style-type: none;
+            width: 100%;
+            text-align: center;
+            padding: 0;
+        }
+        .menu>ul>li{
+            display: inline-block;
+            line-height: 5px;
+            width: 18%;
+
+        }
+        .menu a{
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+        .menu a:hover{
+            background-color: orange;
+            color: red;
+            border-radius: 10px;
+        }
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="trangchu.html" target="page">TRANG CHỦ |</a></li>
+            <li><a href="hoatdong.html" target="page" >HOẠT ĐỘNG SV |</a></li>
+            <li><a href="hoidap.html" target="page">HỎI ĐÁP |</a></li>
+            <li><a href="tuyendung.html" target="page">TUYỂN DỤNG |</a></li>
+            <li><a href="tuyensinh.html" target="page">TUYỂN SINH |</a></li>
+        </ul>
+    </nav>
+    <div>
+        <article>
+            <iframe src="home.html" name="page"  frameborder="0"></iframe>
+           
+            
+        </article>
+        <aside>
+            <ul class="vmenu">
+                <li><a href="">Thông báo kế hoạch tuyển sinh năm 2022-2023</a></li>
+                <li><a href="chuongtrinhdt.html">Chương trình đào tạo</a></li>
+                <li><a href="quychets.html">Quy chế tuyển sinh</a></li>
+                <li><a href="hocphi.html">Học phí</a></li>
+                <li><a href="cauhoitg.html">Câu hỏi thường gặp</a></li>
+                
+            </ul>
+        </aside>
+    </div>
+    <footer> Cao đẳng FPT Polytechnic</footer>
+</div>
+</body>
+</html>>
